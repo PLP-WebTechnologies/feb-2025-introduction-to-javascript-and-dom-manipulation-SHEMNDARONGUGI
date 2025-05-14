@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">JavaScript DOM Manipulation</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">Click the button to change this text.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="style-target">This paragraph will be styled dynamically.</p>
+      <button onclick="toggleStyle()">Toggle Style</button>
+    </section>
+
+    <section>
+      <p>Add or remove a message below:</p>
+      <button onclick="toggleMessage()">Add/Remove Message</button>
+      <div id="message-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;  2025 SHEM TECHNOLOGIES KENYA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
